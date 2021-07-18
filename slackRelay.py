@@ -5,7 +5,6 @@ import requests
 import json
 import sys, getopt
 
-#Create a new Incoming JSON Webhook in your Slack admin control panel, and paste the link below
 _webhook_url = 'https://hooks.slack.com/services/'
 
 DEBUG = False
