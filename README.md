@@ -11,10 +11,9 @@ To get working, you will need to create an Incoming Webhook URL for your Slack t
 slackRelay.py -n [channel_username] -c [channel_name] -p [UDP port to listen on] -i [slack_hook_id]
 ```
 
-
 The slack_hook_id is obtained from the webookurl: 
 
-https://hooks.slack.com/services/`ZZZZZZZZ/YYYYYYY/XXXXXXXXXXXXXXXXXXXXXXX`
+https://hooks.slack.com/services/ZZZZZZZZ/YYYYYYY/XXXXXXXXXXXXXXXXXXXXXXX
 
 ```
 ./slackRelay.py -p 9999 -n "Debugger" -c "#debugging" -i "ZZZZZZZZ/YYYYYYY/XXXXXXXXXXXXXXXXXXXXXXX"
